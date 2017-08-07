@@ -1,0 +1,6 @@
+---
+
+- hosts: imac
+
+  roles:
+    - install-apt

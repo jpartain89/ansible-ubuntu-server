@@ -1,0 +1,7 @@
+---
+
+- hosts: imac
+  become: true
+
+  roles:
+    - openssh-server-install

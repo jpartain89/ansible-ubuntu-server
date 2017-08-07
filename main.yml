@@ -1,0 +1,8 @@
+---
+
+- hosts: imac
+
+- include: ansible/install-apt.yml
+- include: ansible/dotfiles.yml
+- include: ansible/git.yml
+#- include: ansible/logrotate.yml
